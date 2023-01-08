@@ -4,8 +4,8 @@
 | **char**	| %c | 1 |
 | **short** | %hd | 보통 2 |	
 | **int**	| %d, %i | 보통 4, 최소 2~ |	
-| **float**	| %f | 4 | 
-| **double** | %lf | 8 | 
+| **float**	| %f, %g, %G  | 4 | 
+| **double** | %lf, %g, %G | 8 | 
 | unsigned int | %u | 보통 4, 최소 2~ |
 
 
