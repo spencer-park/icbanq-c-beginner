@@ -54,10 +54,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-
-# End of https://www.toptal.com/developers/gitignore/api/c
-day02/01_variables
-day03/01_short_int
-day03/02_unsigned_int
-day03/03_float_double
-day03/04_char
