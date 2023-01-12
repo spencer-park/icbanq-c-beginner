@@ -18,7 +18,7 @@ int main(){
     printf("n1 / n2 = %d\n", result);
 
     result = n1 % n2;
-    printf("n1 % n2 = %d\n", result);
+    printf("n1 %% n2 = %d\n", result);
 
     return 0;
 }

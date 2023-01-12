@@ -2,13 +2,13 @@
 
 int main(){
     float mineralPurity;
-    printf("í•´ë‹¹ ê´‘ë¬¼ì˜ ìˆœë„ëŠ”? : ");
-    scanf("%f", &mineralPurity);  // ì…ë ¥ë°›ëŠ” ë°ì´í„°ì˜ í¬ë§·ì½”ë“œ, ì €ì¥í•  ë³€ìˆ˜ì˜ ì£¼ì†Œê°’
+    printf("ÇØ´ç ±¤¹°ÀÇ ¼øµµ´Â? : ");
+    scanf("%f", &mineralPurity);  // ÀÔ·Â¹Ş´Â µ¥ÀÌÅÍÀÇ Æ÷¸ËÄÚµå, ÀúÀåÇÒ º¯¼öÀÇ ÁÖ¼Ò°ª
 
     double mineralPrice;
-    printf("í•´ë‹¹ ë³´ë¬¼ ê°€ì¹˜ëŠ” ì–¼ë§ˆì¸ê°€ìš”? : ");
+    printf("ÇØ´ç º¸¹° °¡Ä¡´Â ¾ó¸¶ÀÎ°¡¿ä? : ");
     scanf("%lf", &mineralPrice);
 
-    printf("%fìˆœë„ì˜ ê¸ˆì•¡ì€ %lfì›ì…ë‹ˆë‹¤.\n", mineralPurity, mineralPrice);
+    printf("%f¼øµµÀÇ ±İ¾×Àº %lf¿øÀÔ´Ï´Ù.\n", mineralPurity, mineralPrice);
     return 0;
 }

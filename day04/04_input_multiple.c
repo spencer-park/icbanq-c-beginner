@@ -3,9 +3,9 @@
 int main(){
     float mineralPurity;
     double mineralPrice;
-    printf("í•´ë‹¹ ê´‘ë¬¼ì˜ ìˆœë„ì™€ ê¸ˆì•¡ì€? : ");
+    printf("ÇØ´ç ±¤¹°ÀÇ ¼øµµ¿Í ±İ¾×Àº? : ");
     scanf("%f %lf", &mineralPurity, &mineralPrice); 
 
-    printf("%fìˆœë„ì˜ ê¸ˆì•¡ì€ %lfì›ì…ë‹ˆë‹¤.\n", mineralPurity, mineralPrice);
+    printf("%f¼øµµÀÇ ±İ¾×Àº %lf¿øÀÔ´Ï´Ù.\n", mineralPurity, mineralPrice);
     return 0;
 }
