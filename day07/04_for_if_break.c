@@ -6,7 +6,9 @@ int main(){
     int count = 0;
 
     for (count = 1; count < 21; count++){
+        printf("Enter Number : ");
         scanf("%d", &input);
+        
         if (input > goal){
             printf("Down\n");
         }
