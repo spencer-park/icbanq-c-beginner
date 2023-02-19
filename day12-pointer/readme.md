@@ -42,3 +42,11 @@ C언어 기초 강의들을 보면 포인터를 뺀 경우도 있습니다.
 1. 데이터의 크기 단위만큼 이동+연산을 합니다.
     1. int형 배열을 포인터 변수로 가리키게 되면
     1. int형 사이즈 만큼이 이 포인터 변수 연산의 기본 단위가 됩니다.
+
+## pythontutor로 c 포인터이 구조를 살펴보자.
+- [https://pythontutor.com/c.html#mode=edit](https://pythontutor.com/c.html#mode=edit)
+- `show memory address`를 켜고 보자
+
+## 포인터 변수를 사용한다는 것은?
+- 데이터 원본을 조작한다는 것
+- 직접 접근을 한다는 것
