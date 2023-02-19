@@ -63,6 +63,6 @@ int main()
     // 사용한 파일 포인터 close하여 파일 작업 종료하기
     fclose(in_file);
     fclose(out_file);
-
+    
     return 0;
 }
