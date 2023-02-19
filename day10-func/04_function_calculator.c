@@ -1,4 +1,4 @@
-// 02_switch_calc.c ¸¦ ÇÔ¼ö »ç¿ëÇØ¼­ Á¤ÀÇÇØº¸ÀÚ
+// 02_switch_calc.c ë¥¼ í•¨ìˆ˜ ì‚¬ìš©í•´ì„œ ì •ì˜í•´ë³´ì
 #include <stdio.h>
 
 int calculate(int n1, int n2, char operator){
@@ -12,12 +12,13 @@ int calculate(int n1, int n2, char operator){
         case '/':
             return n1 / n2;   
     }
+    // return -99999999;  // ì—†ìœ¼ë©´ warning: non-void function does not return a value in all control paths
 }
 
 int main(){
-    // ÇÔ¼ö ½ÇÇà
+    // í•¨ìˆ˜ ì‹¤í–‰
     int result = calculate(3, 5, 'c');
-    printf("°á°ú´Â %d\n", result);
+    printf("ê²°ê³¼ëŠ” %d\n", result);
 
     return 0;
 }
