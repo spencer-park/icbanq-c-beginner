@@ -7,7 +7,7 @@ int main(){
     // 0인 값들만 찾아 데이터 수정
     int arrayLen = sizeof(score) / sizeof(score[0]);
 
-    // 순차 탐색 및 입력
+    // 순차 탐색 및 입력 - if를 빼면 모두 입력
     for(int index = 0; index < arrayLen; index++){
         if (score[index] == 0){
             printf("%d번째 점수 입력: ", index);
