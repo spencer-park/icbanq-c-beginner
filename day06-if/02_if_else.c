@@ -15,4 +15,7 @@ int main(){
     else{
         printf("일반 요금이 아닙니다.\n");
     }
+
+    if (age >= 19){printf("일반 요금입니다.\n");}
+    else{printf("일반 요금이 아닙니다.\n");}
 }

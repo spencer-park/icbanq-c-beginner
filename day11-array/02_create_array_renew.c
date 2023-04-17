@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main(){
-    // ë°°ì—´ ì„ ì–¸ê³¼ ì´ˆê¸°í™”
+    // ¹è¿­ ¼±¾ð°ú ÃÊ±âÈ­
     int totalScore = 0;
-    int score[4] = {100, 90, 80, 70};  // intí˜• ë°°ì—´ * ê¸¸ì´ 4
-    int score[] = {100, 90, 80, 70};  // ìš°ì¸¡ì— ì´ˆê¸°í™”ë¥¼ í•˜ë©´ ë°°ì—´ ê¸¸ì´ê°€ ìžë™ìœ¼ë¡œ ê³„ì‚°ëœë‹¤.
+    // int score[4] = {100, 90, 80, 70};  // intÇü ¹è¿­ * ±æÀÌ 4
+    int score[] = {100, 90, 80, 70};  // ¿ìÃø¿¡ ÃÊ±âÈ­¸¦ ÇÏ¸é ¹è¿­ ±æÀÌ°¡ ÀÚµ¿À¸·Î °è»êµÈ´Ù.
 
 
-    // total score êµ¬í•˜ê¸° - ì •í•´ì§„ ê¸¸ì´ê°€ ìžˆìœ¼ë‹ˆ forê°€ ì í•©
+    // total score ±¸ÇÏ±â - Á¤ÇØÁø ±æÀÌ°¡ ÀÖÀ¸´Ï for°¡ ÀûÇÕ
     for (int index = 0; index < 4; index++){
         totalScore += score[index];
-        printf("í†µí•© ì ìˆ˜ %d, ë”í•´ì§„ ê°’ %d\n", totalScore, score[index]);
+        printf("ÅëÇÕ Á¡¼ö %d, ´õÇØÁø °ª %d\n", totalScore, score[index]);
     }
-    printf("í†µí•© ì ìˆ˜ëŠ” %d ìž…ë‹ˆë‹¤.\n", totalScore);
+    printf("ÅëÇÕ Á¡¼ö´Â %d ÀÔ´Ï´Ù.\n", totalScore);
 
     return 0;
 }

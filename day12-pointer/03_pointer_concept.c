@@ -22,7 +22,7 @@ int main()
     // 실험 2. 포인터 변수 생성
     int *ptr = &arr[0];
 
-    // 배열 각 요소 출력
+    // 배열 각 요소 출력(포인터 연산을 이용할 경우)
     printf("%d\n", *ptr);       // arr[0]의 값 출력
     printf("%d\n", *(ptr + 1)); // arr[1]의 값 출력
     printf("%d\n", *(ptr + 2)); // arr[2]의 값 출력
