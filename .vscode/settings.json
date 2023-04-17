@@ -1,5 +1,10 @@
 {
     "files.autoGuessEncoding": true,
     "files.encoding": "euckr",
-    "workbench.colorTheme": "Default Dark+"
+    "workbench.colorTheme": "Default Dark+",
+    "files.associations": {
+        "*.excalidraw": "json",
+        "*.excalidrawlib": "json",
+        "stdlib.h": "c"
+    }
 }
