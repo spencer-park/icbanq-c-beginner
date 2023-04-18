@@ -1,3 +1,6 @@
+
+
+---
 ## 문자열(string) 입력 함수
 scanf와 fgets를 알아두자.
 
