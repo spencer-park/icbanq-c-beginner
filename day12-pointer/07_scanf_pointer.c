@@ -12,13 +12,23 @@
 
 int main()
 {
-    int a = 3;
-    int arr[] = {1, 2, 3};
+    int n1 = 3;
 
-    printf("%d ", a);
-    printf("%p ", &a);
+    // CASE 1: scanf -> n1
+    printf("Enter N1 : ");
+    scanf("%d", &n1);
+    getchar();
+    
+    printf("n1의 주소 : %p, 내용 : %d\n", &n1, n1);
+    printf("\n");
 
-    // printf("%d ", arr);  // error
-    printf("%p ", arr);
+    // CASE 2: scanf -> * n2
+    int * n2 = &n1;
+    printf("Enter N2 : ");
+    scanf("%d", n2);  // 입력할 땐 그냥 포인터 변수 이름으로(주소니까!)
+
+    printf("n1의 주소 : %p, 내용 : %d\n", &n1, n1);
+    printf("n2의 주소 : %p, 내용 : %d\n", n2, *n2);  // 내용 확인할 땐 *변수
+    
     return 0;
 }

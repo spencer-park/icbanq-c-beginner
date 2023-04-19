@@ -248,7 +248,7 @@
       "y": 63.80785369873047,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 55,
+      "width": 54.482421875,
       "height": 23,
       "seed": 1710255288,
       "groupIds": [],
@@ -260,11 +260,12 @@
       "fontSize": 20,
       "fontFamily": 2,
       "text": "1 byte",
-      "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "1 byte"
+      "originalText": "1 byte",
+      "lineHeight": 1.15,
+      "baseline": 18
     },
     {
       "type": "rectangle",
@@ -3022,8 +3023,8 @@
     },
     {
       "type": "text",
-      "version": 473,
-      "versionNonce": 2049016637,
+      "version": 474,
+      "versionNonce": 360506539,
       "isDeleted": false,
       "id": "YzztmKeG_RUAX03s80RWI",
       "fillStyle": "hachure",
@@ -3036,7 +3037,7 @@
       "y": 142.79803466796875,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 242,
+      "width": 240.77191162109375,
       "height": 36,
       "seed": 908355528,
       "groupIds": [],
@@ -3047,17 +3048,18 @@
           "type": "arrow"
         }
       ],
-      "updated": 1678203447186,
+      "updated": 1681884323028,
       "link": null,
       "locked": false,
       "fontSize": 28,
       "fontFamily": 1,
       "text": "computer storage",
-      "baseline": 25,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "computer storage"
+      "originalText": "computer storage",
+      "lineHeight": 1.2857142857142858,
+      "baseline": 25
     },
     {
       "type": "rectangle",
@@ -3103,7 +3105,7 @@
       "y": 332.2608568799902,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 61,
+      "width": 60.048828125,
       "height": 23,
       "seed": 1267518408,
       "groupIds": [
@@ -3122,11 +3124,12 @@
       "fontSize": 20,
       "fontFamily": 2,
       "text": "int age",
-      "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "int age"
+      "originalText": "int age",
+      "lineHeight": 1.15,
+      "baseline": 18
     },
     {
       "type": "arrow",
@@ -3274,7 +3277,7 @@
       "y": 255.99410835464698,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 115,
+      "width": 113.896484375,
       "height": 23,
       "seed": 1004603064,
       "groupIds": [
@@ -3293,11 +3296,12 @@
       "fontSize": 20,
       "fontFamily": 2,
       "text": "age's pointer",
-      "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "age's pointer"
+      "originalText": "age's pointer",
+      "lineHeight": 1.15,
+      "baseline": 18
     },
     {
       "type": "ellipse",
@@ -3378,7 +3382,7 @@
       "y": 256.41603088378906,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 119,
+      "width": 117.8515625,
       "height": 23,
       "seed": 1187016136,
       "groupIds": [
@@ -3397,11 +3401,12 @@
       "fontSize": 20,
       "fontFamily": 2,
       "text": "datatype size",
-      "baseline": 18,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "datatype size"
+      "originalText": "datatype size",
+      "lineHeight": 1.15,
+      "baseline": 18
     },
     {
       "type": "rectangle",

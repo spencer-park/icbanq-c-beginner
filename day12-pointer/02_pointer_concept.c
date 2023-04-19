@@ -30,9 +30,9 @@ int main()
     printf("%d\n", *(ptr + 4)); // arr[4]의 값 출력
 
     // ptr변수가 가리키는 주소 값 -> 각 요소의 주소 값
-    printf("%d\n", *ptr); // ptr가 가리키는 주소 출력
-    printf("%d\n", *(ptr + 1));
-    printf("%d\n", *(ptr + 2));
-    printf("%d\n", *(ptr + 3));
-    printf("%d\n", *(ptr + 4));
+    printf("%p\n", ptr); // ptr가 가리키는 주소 출력
+    printf("%p\n", (ptr + 1));
+    printf("%p\n", (ptr + 2));
+    printf("%p\n", (ptr + 3));
+    printf("%p\n", (ptr + 4));
 }
