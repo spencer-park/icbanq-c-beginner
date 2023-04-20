@@ -3,8 +3,8 @@
 int main()
 {
     int score[] = {1, 2, 3, 4, 5};
-    int *ptr_score = score;  // 되긴하나 권장하지않음
-    // int *ptr_score = score[0];  // 권장함
+    // int *ptr_score = score;  // 되긴하나 권장하지않음
+    int *ptr_score = &score[0];  // 권장함
 
     // update
     *ptr_score = 99;
