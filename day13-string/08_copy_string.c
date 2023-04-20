@@ -1,3 +1,5 @@
+// strcpy = copy string
+
 #include <stdio.h>
 #include <string.h>
 
